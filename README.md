@@ -4,10 +4,18 @@ A Python CLI tool for managing URL shortcuts in the terminal. Quickly save, list
 
 ## Installation
 
-Requires [uv](https://docs.astral.sh/uv/).
+Requires Python 3.10+.
+
+### Using uv (recommended)
 
 ```bash
-uv sync
+uv tool install git+https://github.com/rvsblabs/url-shortner.git
+```
+
+### Uninstall
+
+```bash
+uv tool uninstall ush
 ```
 
 ## Usage
